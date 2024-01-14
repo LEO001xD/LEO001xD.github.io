@@ -8,6 +8,12 @@
 
     <title>Css Begin</title>
     <style>
+        /* universal selector */
+        *{
+            background-color: salmon;
+            font-family: Courier;
+        }
+        /* ----------------------- */
         h1{
             color:yellowgreen;
             font-size: 50px;
@@ -24,7 +30,7 @@
             font-style: oblique;
             font-size: 300%;
         }
-        div.hi{
+        body{
             font-size: 10px;
         }
         div{
@@ -37,22 +43,29 @@
     <h1>hello world</h1>
     <h1 class="title">hello world(class)</h1>
     <h1 id="title">hello world(id)</h1>
+    <hr>
     <p class="message">poori is gay</p>
     <p id="message">leo is not gay</p>
+    <hr>
     <h1 class="message">hello guys</h1>
+    <hr>
     <!--inline-->
     <p style="color: aquamarine;font-size: 100px;font-weight: bold;">aquamarine</p>
+    <hr>
     <div>
         hi1
         <div>
             hi2
             <div>
                 hi3
-                <div class="hi">
+                <div >
                     hi4
                 </div >
             </div>
         </div>
     </div>
+    <hr>
+    <h1 class="head" style="color: black;">HTML</h1>
+    <div style="border: 5px solid black;color:blue;width: 1000px;height: 100px;">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</div>
 </body>
 </html>
